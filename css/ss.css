@@ -7,10 +7,10 @@
 }
 
 .container {
-  max-width: 1536px;
-  width: 85%;
+  max-width: 1900px;
+  width: 80%;
   margin-inline: auto;
-  padding-inline: 20px;
+  padding-inline: 40px;
   @media (max-width: 530px) {
     padding-inline: 10px;
   }
@@ -84,7 +84,7 @@ span {
   gap: 60px;
 }
 
-.header nav a  {
+.header nav a {
   position: relative;
   text-decoration: none;
   color: #eaedf0;
@@ -93,7 +93,7 @@ span {
 }
 
 .header nav a::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   bottom: -2px;
@@ -164,25 +164,29 @@ span {
   width: 80%;
   gap: 20px;
   flex-direction: column;
-} 
+}
 
-.glow-on-hover{
+.glow-on-hover {
   max-width: 180px;
   width: 100%;
   height: 53px;
   border: none;
   outline: none;
   color: #fff;
-  background: rgb(186,7,251);
-background: linear-gradient(90deg, rgba(186,7,251,1) 0%, rgba(236,34,245,1) 40%, rgba(10,180,250,1) 85%);
+  background: rgb(186, 7, 251);
+  background: linear-gradient(
+    90deg,
+    rgba(186, 7, 251, 1) 0%,
+    rgba(236, 34, 245, 1) 40%,
+    rgba(10, 180, 250, 1) 85%
+  );
   cursor: pointer;
   position: relative;
   z-index: 0;
   border-radius: 10px;
- 
 }
 
-.glow-on-hoveer{
+.glow-on-hoveer {
   max-width: 180px;
   width: 100%;
   height: 53px;
@@ -620,7 +624,7 @@ footer h2:hover::after {
   position: absolute;
   width: 230px;
   height: 230px;
-  background-color: #f303bfad; 
+  background-color: #f303bfad;
   border-radius: 50%;
   filter: blur(30px);
   z-index: -2;
