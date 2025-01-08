@@ -4,6 +4,9 @@
   }
 }
 @media (max-width: 1310px) {
+  .work_box {
+    max-width: 370px;
+  }
   .home_text {
     max-width: 466px;
   }

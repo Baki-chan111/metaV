@@ -28,6 +28,9 @@
 }
 
 @media (max-width: 1300px) {
+  .work_box {
+    max-width: 300px;
+  }
   .home_img img {
     max-width: 520px;
   }
